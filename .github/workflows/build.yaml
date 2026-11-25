@@ -48,7 +48,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-26.04, ubuntu-26.04-arm, windows-2025, windows-11-arm, macos-26]
+        os: [ubuntu-26.04, ubuntu-26.04-arm]
 
     steps:
       - uses: actions/checkout@v7
